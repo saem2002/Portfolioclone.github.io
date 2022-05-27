@@ -1,0 +1,302 @@
+body{
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+.All_page{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.Main_nav{
+    height: auto;
+    
+}
+.List_nav{
+    display: flex;
+    width: 90%;
+    padding: 10vh 5vw;
+    justify-content: space-evenly;
+
+}
+.Nav_design{
+    z-index: -1;
+    display: flex;
+    height: 100vh;
+    width: 30%;
+    margin-top: -30vh;
+    margin-left: -20vh;
+    background-color: rgb(153, 204, 0);
+}
+.info_div{
+    height: 60vh;
+    margin-top: -60vh;
+    display: flex;
+    margin-bottom: 5vh;
+}
+.left_div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    width: 45vw;
+
+}
+.right_div{
+    width: 50vw;
+
+}
+.right_div_image{
+    height: 60vh;
+    width: 27vw;
+    margin-left: 18vw;
+}
+.Heading{
+    font-size: calc(3vw + 3vh + 2vmin);
+    font-weight: 700;
+    margin-bottom: 1.5vh;
+}
+.info_text{
+    width: 80%;
+}
+.button_info{
+    width: 30%;
+    font-weight: 600;
+    font-size: calc(1vw + 1vh );
+    background-color: rgb(153, 204, 0);
+    color: white;
+    height: 8vh;
+    border-style: none;
+    border-radius: 5%;
+}
+.info_div2{
+    margin-top: 10vh;
+    height: auto;
+    margin-bottom: 15vh;
+    display: flex;
+}
+.left_div2{
+    height: 40vh;
+    width: 25vw;
+    font-size: calc(3vw + 4vh + 2vmin);
+    background-image: url('./assests/bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.Text_heading{
+    display: flex;
+    font-weight: 800;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-top: 3vh;
+   
+}
+.right_div2{
+    height: 40vh;
+    width: 68vw;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Allright_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    width: 37vw;
+}
+.Date_heading{
+    font-weight: bold;
+    font-size: calc(1vw + 2vh );
+    color:rgb(153, 204, 0) ;
+}
+.bold_heading{
+    font-weight: bold;
+}
+.pics_div{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.heading_div_main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.heading_div3{
+    font-size: calc(3vw + 3vh + 1vmin); 
+    font-weight:700;
+    
+}
+.headings{
+    width: 50%;
+    margin-bottom: 10vh;
+}
+.Images_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10vw;
+    justify-content: space-between;
+}
+
+.Imagewise{
+    display: flex;
+    width: 15vw;
+    flex-direction: column;
+    margin: 5vh 4vw;
+}
+.green_design{
+    z-index: 1;
+    margin-bottom: -7.5vh;
+    margin-left: 2vh;
+    height: 9.5vh;
+    width: 2.5vw;
+    background-color:rgb(153, 204, 0) ;
+}
+.desc_image_heading{
+    font-size: calc(1vw + 1.5vh );
+    font-weight: bolder;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+.desc_image{
+    width: 18vw;
+    margin-bottom: 1vh;
+}
+.desc_image_coloured{
+    font-weight: bold;
+    font-size: calc(0.8vw + 0.8vh );
+    color:rgb(153, 204, 0)  ;
+}
+.info_div4{
+    margin-top: 10vh;
+    display: flex;
+    height: 100vh;
+}
+.left_div4{
+    display: flex;
+    width: 70vw;
+    
+}
+.right_div4{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 50%;
+    color: white;
+    font-size: calc(4vw + 4vh + 2vmin); 
+    justify-content: space-evenly;
+    font-weight: bold;
+    background-color: rgb(153, 204, 0) ;
+    padding: 2vw 0;
+}
+.Images_div1{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.Imagewise1{
+    display: flex;
+    width: 15vw;
+    flex-direction: column;
+    margin: 5vh 4vw;
+}
+.green_design_quotes{
+    height: 0.5vh;
+    width: 2.5vw;
+    background-color: rgb(153, 204, 0) ;
+}
+.lines{
+    margin-left: 3vw;
+}
+.info_div5{
+    margin-top: 10vh;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.left_div5{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    font-size: calc(4vw + 4vh + 2vmin); 
+    font-weight: bold;
+    color: rgb(153, 204, 0) ;
+    margin-bottom: 5vh;
+    
+}
+.right_div5{
+    display: flex;
+   height: 100vh;
+    width: 80vw;
+    margin-right: 10vw;
+}
+.simple_lines{
+    width: 30vw;
+}
+.Images_div2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+.Imagewise2_1{
+    height: 55vh;
+    width: 21vw;
+}
+.Imagewise2_2{
+    margin-top: -8vh;
+    height: 37vh;
+    width: 18vw;
+}
+.Imagewise2_3{
+    height: 40vh;
+    width: 21vw;
+}
+.Imagewise2_4{
+    height: 25vh;
+    width: 18vw;
+    margin-top: -25vh;
+}
+.Imagewise2_5{
+    width: 18vw;
+    height: 50vh;
+    margin-left: 21vw;
+    margin-top: -40vh;
+}
+.info_div6{
+    margin-top: 20vh;
+    display: flex;
+    margin-bottom: -2vh;
+    margin-left: -2vw;
+    justify-content: space-between;
+    height: 40vh;
+}
+.left_div6{
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10vw;
+    background-color:rgb(153, 204, 0)  ;
+}
+.right_div6{
+    text-align: right;
+    margin-top: 30vh;
+    margin-right: 5vw;
+    width: 50%;
+}
+.logo_media{
+    margin-top: 2vh;
+    margin-right: 0.5vw;
+    height: 3vh;
+    width: 2.5vw;
+}
